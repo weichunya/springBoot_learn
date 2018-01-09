@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.example</groupId>
+	<artifactId>myproject-web</artifactId>
+	<name>myproject-web</name>
+	<packaging>war</packaging>
+
+	<parent>
+		<artifactId>myproject-parent</artifactId>
+		<groupId>com.example</groupId>
+		<version>myproject.0.0.1-SNAPSHOT</version>
+		<relativePath>../myproject-parent/pom.xml</relativePath>
+	</parent>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<!-- myproject start -->			
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>myproject-biz</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>myproject-service-client</artifactId>
+		</dependency>
+		<!--<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>myproject-task</artifactId>
+		</dependency>-->
+		<!--<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>myproject-service-impl</artifactId>
+		</dependency>-->
+		<!-- myproject end -->
+		<!-- freemarker模板引擎的依赖begin-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>-->
+		<!-- freemarker模板引擎的依赖end-->
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>Application</mainClass>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<!--如果想在没有web.xml文件的情况下构建WAR，请设置为false。-->
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

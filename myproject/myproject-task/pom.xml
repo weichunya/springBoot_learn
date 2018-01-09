@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>myproject-parent</artifactId>
+        <groupId>com.example</groupId>
+        <version>myproject.0.0.1-SNAPSHOT</version>
+        <relativePath>../myproject-parent/pom.xml</relativePath>
+    </parent>
+    <artifactId>myproject-task</artifactId>
+    <name>myproject-task</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!--<dependency>
+            <groupId>com.example</groupId>
+            <artifactId>myproject-biz</artifactId>
+            <version>myproject.0.0.1-SNAPSHOT</version>
+        </dependency>-->
+        <!-- lts -->
+    
+    </dependencies>
+    <build>
+        <plugins>
+            <!--<plugin>
+                &lt;!&ndash; NOTE: We don't need a groupId specification because the group is
+                     org.apache.maven.plugins ...which is assumed by default.
+                 &ndash;&gt;
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <descriptor>src/main/assemble/service-impl-jar-with-dependency.xml</descriptor>
+                    &lt;!&ndash; 	          <archive>
+                                      <manifest>
+                                            <addClasspath>true</addClasspath>
+                                            <classpathPrefix>lib/</classpathPrefix>
+                                          <mainClass>com.alibaba.dubbo.container.Main</mainClass>
+                                      </manifest>
+                                  </archive> &ndash;&gt;
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> &lt;!&ndash; this is used for inheritance merges &ndash;&gt;
+                        <phase>package</phase> &lt;!&ndash; bind to the packaging phase &ndash;&gt;
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>-->
+        </plugins>
+    </build>
+</project>

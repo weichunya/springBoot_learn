@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject.iml" filepath="$PROJECT_DIR$/myproject/myproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject-biz/myproject-biz.iml" filepath="$PROJECT_DIR$/myproject/myproject-biz/myproject-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject-parent/myproject-parent.iml" filepath="$PROJECT_DIR$/myproject/myproject-parent/myproject-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject-service-client/myproject-service-client.iml" filepath="$PROJECT_DIR$/myproject/myproject-service-client/myproject-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject-task/myproject-task.iml" filepath="$PROJECT_DIR$/myproject/myproject-task/myproject-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject/myproject-web/myproject-web.iml" filepath="$PROJECT_DIR$/myproject/myproject-web/myproject-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_boot_demo2.iml" filepath="$PROJECT_DIR$/.idea/spring_boot_demo2.iml" />
+    </modules>
+  </component>
+</project>

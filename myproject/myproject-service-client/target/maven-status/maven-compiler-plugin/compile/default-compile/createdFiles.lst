@@ -1,0 +1,3 @@
+com\example\service\student\StudentsServiceClient.class
+com\example\service\student\impl\StudentsServiceClientImpl.class
+com\example\entity\demo\StudentDTO.class

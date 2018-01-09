@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: com.example:myproject-service-client:myproject.0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/example/myproject-service-client/myproject.0.0.1-SNAPSHOT/myproject-service-client-myproject.0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/myproject/myproject-service-client/myproject-service-client-myproject.0.0.1-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/example/myproject-service-client/myproject.0.0.1-SNAPSHOT/myproject-service-client-myproject.0.0.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/myproject/myproject-service-client/myproject-service-client-myproject.0.0.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/example/myproject-service-client/myproject.0.0.1-SNAPSHOT/myproject-service-client-myproject.0.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
