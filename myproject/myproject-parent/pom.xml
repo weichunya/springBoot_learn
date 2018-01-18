@@ -141,6 +141,49 @@
         </dependency>
         <!--单元测试的需要依赖的包end -->
 
+        <!-- spring-web-service的依赖 start -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
+            <version>1.5.2.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hibernate</groupId>
+                    <artifactId>hibernate-validator</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- spring-web-service的依赖 end -->
+
+        <!-- spring web service wsdl包 -->
+        <dependency>
+            <groupId>wsdl4j</groupId>
+            <artifactId>wsdl4j</artifactId>
+            <version>1.6.3</version>
+        </dependency>
+        <!-- spring web service wsdl包 end -->
+
+        <!-- cxf支持 start -->
+        <dependency>
+             <groupId>org.apache.cxf</groupId>
+             <artifactId>cxf-rt-frontend-jaxws</artifactId>
+             <version>3.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http</artifactId>
+            <version>3.1.6</version>
+        </dependency>
+        <!-- cxf支持 end -->
+
+        <!--添加fastjson依赖 start-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+        <!--添加fastjson依赖 end-->
+
     </dependencies>
     <!--<build>
         <plugins>

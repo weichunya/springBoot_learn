@@ -24,5 +24,8 @@ public class StudentController {
     public Object  getStudent(){
         return studentServiceClient.getStudentById(1);
     }
-
+    @RequestMapping(value = "/errortest")
+    public String testError() throws Exception{
+        throw new Exception("发生错误");
+    }
 }
